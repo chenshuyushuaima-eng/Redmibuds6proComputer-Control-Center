@@ -2,7 +2,7 @@
 
 在 Windows 上控制 REDMI Buds 6 Pro 国行耳机的第三方桌面应用，使用 C#、WPF 和 Windows 原生蓝牙 API。当前版本 **0.1.7**。
 
-**适配范围：Windows 11 x64、REDMI Buds 6 Pro 国行、固件 1.1.9.9。** 协议参考小米耳机 Android 应用 `com.mi.earphone` 1.38.0；其他型号、地区和固件尚未确认。
+**适配范围：Windows 10/11 x64、REDMI Buds 6 Pro 国行、固件 1.1.9.9。** 协议参考小米耳机 Android 应用 `com.mi.earphone` 1.38.0；其他型号、地区和固件尚未确认。
 
 ## 功能
 
