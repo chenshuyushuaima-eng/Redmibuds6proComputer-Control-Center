@@ -1,0 +1,18 @@
+{
+  "device": "REDMI Buds 6 Pro",
+  "region": "CN",
+  "model": "miwear.headphone.o76cn",
+  "vid": "2717",
+  "pid": "509D",
+  "reference_firmware": "1.1.9.9",
+  "reference_app": "com.mi.earphone 1.38.0",
+  "retrieved_on": "2026-10-04",
+  "source": "https://cn.tws.wear.xiaomiwear.com/twswear/product/get_product_list",
+  "functions": {
+    "1003": { "name": "manual_anc_strength", "tws_gear": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19] },
+    "1005": { "name": "transparency_strength", "tws_gear": [0, 1, 2] },
+    "2002": { "name": "spatial_audio" },
+    "2004": { "name": "head_tracking" },
+    "2009": { "name": "scene_rendering", "scenes": [1, 2, 3, 4, 5] }
+  }
+}

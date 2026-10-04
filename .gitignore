@@ -1,0 +1,47 @@
+# Build outputs and local version archives
+/dist/
+/release/
+/history/
+/github发布/
+**/bin/
+**/obj/
+.vs/
+*.user
+*.suo
+*.exe
+*.dll
+*.pdb
+*.zip
+
+# Local reference material and generated analysis
+/截图/
+/.analysis/
+/diagnostics/
+/%SystemDrive%/
+*.apk
+*.dex
+*.jar
+*.smali
+*.log
+preferences.ini
+
+# Official app audio is supplied locally by each user
+/assets/fitness_detect.wav
+
+# Local signing material and credentials
+*.pfx
+*.p12
+*.pem
+*.key
+*.jks
+*.keystore
+.env
+.env.*
+credentials.json
+secrets.json
+
+# Editor and OS files
+.vscode/
+Thumbs.db
+Desktop.ini
+.DS_Store

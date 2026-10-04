@@ -1,0 +1,29 @@
+name: Build public packages
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: windows-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Compile and package
+        shell: powershell
+        run: ./tools/package.ps1
+      - name: Upload source and Windows packages
+        uses: actions/upload-artifact@v4
+        with:
+          name: MiBudsControl-public-packages
+          path: |
+            release/*.zip
+            release/SHA256SUMS.txt
+          if-no-files-found: error
